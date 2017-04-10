@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Jane Austen Movies Quiz</string>
+    <!--'q' means question, 'a' means answer, so 'q1a3' means: answer 3. for the first question -->
+    <string name="introduction">Jane Austen\'s only 7 novels are the base of, or inspired many movies and TV films and series, so she is one of the writers with the most credits on IMDB, slightly behind i.e. Hemingway. The world she created and the problems faced by her characters in her works are living with us for almost 200 years in the sense that her stories and characters had born again in many movies played today.\nBehind the romantic or ironic stories and before the happy endings the fear or being marginalized, isolated or falling behind socially, culturally or economically is always present in her characters\' lives, so maybe this is why our era can find inspiration in her works.
+However this quiz is only about the movies, not the social aspects of the stories.</string>
+
+    <string name="q1">Which novels by Jane Austen have yet NOT inspired modern versions of them?</string>
+    <string name="q1max">You should not check more than three, else you\'ll get 0 scores!"</string>
+    You can check only three!
+    <string name="q1a1">Emma</string>
+    <string name="q1a2">Mansfield Park</string>
+    <string name="q1a3">Persuasion</string>
+    <string name="q1a4">Northanger Abbey</string>
+    <string name="q1a5">Pride and Prejudice</string>
+    <string name="q1a6">Sense and Sensibility</string>
+    <string name="q1a7">Love and Friendship</string>
+    <!--Mansfield park,Northanger Abbey, Love and Friendship -->
+    <!-- max 3 points-->
+
+    <string name="q2">Which heroine was kept isolated by her father?</string>
+    <string name="type_here">Her first name</string>
+    <string name="q2answer">Emma</string>
+    <!--Emma: 4 point-->
+    <string name="q3">Two characters in different movies had the same name as:</string>
+    <string name="q3a1">Mark Darcy</string>
+    <string name="q3a2">Mr. Darcy</string>
+    <string name="q3a3">James D\'Arcy</string>
+    <string name="q3a4">Fitzwilliam Darcy</string>
+    <!--Mr. Darcy: Pride and Prejudice  andt the Bridget Jones movies, but with different first names' -->
+    <!--4 points for the 4 movies-->
+    <string name="q4">Which movie is about obsession with Jane Austen movies?</string>
+    <string name="q4a1">Pride and Prejudice and Zombies</string>
+    <string name="q4a2">Unleashing Mr. Darcy</string>
+    <string name="q4a3">From Prada to Nada</string>
+    <string name="q4a4">Bridget Jones\'s Diary</string>
+    <string name="q4a5">Austenland</string>
+    <!--Austenland, 10 point -->
+    <!-- -->
+    <string name="q5">Which actors played in more than one (original or inspired) movie?</string>
+    <string name="q5max">Right answers will bring 2 or more scores each, but you should not check more than three, else you\'ll get 0 scores!"</string>
+    <string name="q5a1">JJ Feild</string>
+    <!-- 2 points: Austenland, Northanger Abbey -->
+    <string name="q5a2">James D\'Arcy</string>
+    <string name="q5a3">Colin Firth</string>
+    <!-- 4 points: Bridget Jones's Diary, Bridget Jones: The Edge of Reason,-->
+    <!-- Bridget Jones's Baby, Pride and Prejudice-->
+    <string name="q5a4">Ewan McGregor</string>
+    <string name="q5a5">Hugh Grant</string>
+    <!-- 3 points: Bridget Jones's Diary, Bridget Jones: The Edge of Reason,-->
+    <!-- Sense and Sensibility-->
+    <!-- alltogether max 9 points-->
+    <string name="q6">How many Oscars got the movies made from novels written by Jane Austen?</string>
+    <string name="q6a1">None</string>
+    <string name="q6a2">1</string>
+    <string name="q6a3">2</string>
+    <!-- correct 2: Emma: music, Sense and Sensibility: screenplay adaptation of the novel, so 2 points-->
+    <string name="q6a4">3</string>
+    <string name="q6a5">More than 3</string>
+    <string name="end">No more questions!\nDo you want to know your scores?</string>
+    <string name="myscores">My scores</string>
+    <string name="reset">Let\'s try again!</string>
+
+</resources>

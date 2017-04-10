@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/textures"
+    tools:context="com.example.android.janeaustenquiz.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/janeausten" />
+
+        <TextView
+            style="@style/Introduction"
+            android:text="@string/introduction"
+            android:textColor="#000000"/>
+
+        <TextView
+            style="@style/CustomQuestion"
+            android:text="@string/q1"
+            android:textColor="#000000"/>
+        <TextView
+            style="@style/CustomQuestionMaxAnswers"
+            android:text="@string/q1max"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/q1a1"
+            android:text="@string/q1a1"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q1a2"
+            android:text="@string/q1a2"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q1a3"
+            android:text="@string/q1a3"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q1a4"
+            android:text="@string/q1a4"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q1a5"
+            android:text="@string/q1a5"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q1a6"
+            android:text="@string/q1a6"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q1a7"
+            android:text="@string/q1a7"
+            style="@style/CustomCheckBox"/>
+
+        <TextView
+            style="@style/CustomQuestion"
+            android:text="@string/q2"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/emma"
+            style="@style/CustomAnswer"
+            android:hint="@string/type_here"/>
+
+        <TextView
+            style="@style/CustomQuestion"
+            android:text="@string/q3"
+            android:textColor="#000000"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/q3a1"
+                style="@style/CustomRadio"
+                android:text="@string/q3a1"/>
+
+            <RadioButton android:id="@+id/q3a2"
+                style="@style/CustomRadio"
+                android:text="@string/q3a2"/>
+
+            <RadioButton android:id="@+id/q3a3"
+                style="@style/CustomRadio"
+                android:text="@string/q3a3"/>
+
+            <RadioButton android:id="@+id/q3a4"
+                style="@style/CustomRadio"
+                android:text="@string/q3a4"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/CustomQuestion"
+            android:text="@string/q4"
+            android:textColor="#000000"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/q4a1"
+                style="@style/CustomRadio"
+                android:text="@string/q4a1"/>
+
+            <RadioButton android:id="@+id/q4a2"
+                style="@style/CustomRadio"
+                android:text="@string/q4a2"/>
+
+            <RadioButton android:id="@+id/q4a3"
+                style="@style/CustomRadio"
+                android:text="@string/q4a3"/>
+
+            <RadioButton android:id="@+id/q4a4"
+                style="@style/CustomRadio"
+                android:text="@string/q4a4"/>
+
+            <RadioButton android:id="@+id/q4a5"
+                style="@style/CustomRadio"
+                android:text="@string/q4a5"/>
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/CustomQuestion"
+            android:text="@string/q5"
+            android:textColor="#000000"/>
+        <TextView
+            style="@style/CustomQuestionMaxAnswers"
+            android:text="@string/q5max"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:id="@+id/q5a1"
+            android:text="@string/q5a1"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q5a2"
+            android:text="@string/q5a2"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q5a3"
+            style="@style/CustomCheckBox"
+            android:text="@string/q5a3" />
+
+        <CheckBox
+            android:id="@+id/q5a4"
+            android:text="@string/q5a4"
+            style="@style/CustomCheckBox"/>
+
+        <CheckBox
+            android:id="@+id/q5a5"
+            android:text="@string/q5a5"
+            style="@style/CustomCheckBox"/>
+
+        <TextView
+                style="@style/CustomQuestion"
+                android:text="@string/q6"
+                android:textColor="#000000"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/q6a1"
+                style="@style/CustomRadio"
+                android:text="@string/q6a1"
+                android:textAlignment="center"
+                android:layout_weight="1" />
+
+            <RadioButton android:id="@+id/q6a2"
+                style="@style/CustomRadio"
+                android:text="@string/q6a2"
+                android:textAlignment="center"
+                android:layout_weight="1"/>
+
+            <RadioButton android:id="@+id/q6a3"
+                style="@style/CustomRadio"
+                android:text="@string/q6a3"
+                android:textAlignment="center"
+                android:layout_weight="1"/>
+
+            <RadioButton android:id="@+id/q6a4"
+                style="@style/CustomRadio"
+                android:text="@string/q6a4"
+                android:textAlignment="center"
+                android:layout_weight="1"/>
+
+            <RadioButton android:id="@+id/q6a5"
+                style="@style/CustomRadio"
+                android:text="@string/q6a5"
+                android:textAlignment="center"
+                android:layout_weight="1"/>
+        </RadioGroup>
+
+    <TextView
+        style="@style/CustomQuestion"
+        android:text="@string/end"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/myscores"
+        style="@style/CustomButton"
+        android:onClick="scoreSummarize"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        style="@style/CustomButton"
+        android:onClick="newGame"/>
+
+    </LinearLayout>
+
+</ScrollView>
